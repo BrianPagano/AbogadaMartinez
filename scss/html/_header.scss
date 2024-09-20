@@ -1,0 +1,33 @@
+
+/*Estilo general del header*/
+/*Tamaño logo abogada*/
+header {
+    nav {
+        div {
+            img {
+                height: 70px;
+            }
+        }
+    }
+}
+
+/*Agrego animanciones en web para el header*/
+@media screen and (min-width:1024px) {
+    header {
+        nav {
+            div {
+                div {
+                    div {
+                        .color-menu:hover {
+                            color:black;
+                            transform: scale(1.1);
+                            transition: transform .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

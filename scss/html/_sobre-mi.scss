@@ -1,0 +1,67 @@
+/*Estilo solapa Sobre mi*/
+/*Estilo para celulares sobre mi*/
+
+main {
+    //Estilo foto
+    img {
+        width: 100vw;  
+    }
+    //alineo texto
+    .presentacion-texto {
+        text-align: center;
+        padding: 30px;
+    }
+    //estilo nombre de abogada en sobre mi
+    div {
+        .nombre-abogada {
+            font-size: 30px;
+            padding-bottom: 15px;
+            color: black;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+/*Estilo para tablet sobre mi */
+@media screen and (min-width:600px) {
+
+    main {
+        .presentacion-texto {
+            padding: 40px;
+        }
+        div {
+            .nombre-abogada {
+                font-size: 35px;   
+            }
+        }
+    }
+
+}
+
+/*Estilo para web sobre mi*/
+@media screen and (min-width:1024px) {
+    .presentacion-foto{
+        display: flex;
+        height: auto;
+    }
+
+    main{
+        img {
+            height: 40vw;
+        }
+
+        div {
+            .nombre-abogada {
+                font-size: 3vw; 
+                padding-top: 20px;  
+            }
+            p {
+                font-size: 1.8vw;
+            }
+        }
+    } 
+}
